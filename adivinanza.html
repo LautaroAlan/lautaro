@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Adivinanza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Juego de Adivinanza</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acercade.html">Acerca de</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <p>Adivina el número entre 1 y 100.</p>
+            <form id="game-form">
+                <input type="number" id="guess" placeholder="Introduce tu número" min="1" max="100" required>
+                <div>
+                    <button type="button" onclick="checkGuess()">Adivinar</button>
+                    <button type="button" onclick="resetGame()">Reiniciar Juego</button>
+                </div>
+            </form>
+            <p class="message" id="message"></p>
+        </article>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Lautaro Alan. Todos los derechos reservados</p>
+        <a href="#"><i class='bx bx-up-arrow-circle'></i></a>
+    </footer>
+
+    <script src="adivinanza.js"></script>
+</body>
+</html>

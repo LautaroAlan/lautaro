@@ -165,3 +165,38 @@ flex-direction: column;
     display: flex;
    
 }
+
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
